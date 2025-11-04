@@ -3,7 +3,7 @@ namespace Inc;
 
 use Utils\Password;
 
-final class UserService
+class UserService
 {
     private const ROLES = ['user', 'admin'];
 

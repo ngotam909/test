@@ -3,7 +3,7 @@ namespace Inc;
 
 use Utils\Password;
 
-final class AuthService
+class AuthService
 {
     public function __construct(private DB $db) {}
 
